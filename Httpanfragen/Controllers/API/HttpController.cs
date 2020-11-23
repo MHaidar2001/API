@@ -10,12 +10,11 @@ namespace Httpanfragen.Controllers
     public class HttpController : ApiController
     {
         // GET: api/Http
-        public string Get()
+        public string Get(string wert="")
         {
-
-            return "Hallo";
+            return "Guten Tag";
         }
-
+        
         // GET: api/Http/5
         public string Get(int id)
         {
